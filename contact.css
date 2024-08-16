@@ -1,0 +1,102 @@
+  /* General Styling */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2f3640;
+    line-height: 1.6;
+    background: linear-gradient(to bottom right, #ff9a9e, #fad0c4, #ffecd2);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Contact Section Styling */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Image Styling */
+.contact-image {
+    max-width: 500px;
+    width: 45%;  /* Adjusts the width of the image */
+    height: auto;
+    border-radius: 12px;
+    margin-right: 40px;
+    
+}
+
+/* Contact Form Styling */
+.contact-box {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    width: 45%;  /* Adjusts the width of the form */
+}
+
+.contact-box h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-box input, .contact-box textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact-box button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-box button:hover {
+    background-color: #ff4757;
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer .footer-contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer .footer-contact p {
+    margin: 5px 0;
+}
+
