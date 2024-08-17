@@ -1,8 +1,9 @@
-CRM System
-Overview
+## CRM System
+
 This is a Customer Relationship Management (CRM) System designed to help businesses efficiently manage and analyze customer interactions throughout the customer lifecycle. The system helps streamline processes, improve customer relationships, increase sales, and enhance customer retention.
 
-Key Features
+## Key Features
+
 Customer Management: Add, edit, and delete customer information.
 Sales Tracking: Monitor sales progress with detailed customer history.
 Task Management: Assign tasks to sales agents and track their progress.
@@ -11,7 +12,8 @@ Email Integration: Send and manage customer emails directly within the system.
 Reporting: Generate detailed reports on customer interactions, sales performance, and more.
 Customizable Pipelines: Adapt sales stages to fit your business needs.
 Security: Role-based access control and data encryption.
-Tech Stack
+
+## Tech Stack
 Frontend: React.js, Bootstrap, CSS
 Backend: Node.js, Express.js
 Database: MongoDB
